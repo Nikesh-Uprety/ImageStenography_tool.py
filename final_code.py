@@ -200,7 +200,7 @@ class Stegno:
                                     self.d_image_w,self.d_image_h)
             messagebox.showinfo('info',str)
         except:
-            messagebox.showinfo('Info','Unable to get the information')
+            messagebox.showinfo('Info','Unable to get the required information')
     def genData(self,data):
         newd = []
 
